@@ -1,9 +1,9 @@
 //import { Radar } from "lucide-react";
 
-interface SponsorProps {
-  icon: JSX.Element;
-  name: string;
-}
+// interface SponsorProps {
+//   icon: JSX.Element;
+//   name: string;
+// }
 
 //const sponsors: SponsorProps[] = [
   // {
