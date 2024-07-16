@@ -1,5 +1,5 @@
 # ZenTab
-![ZenTab Demo Video](https://res.cloudinary.com/dht5iya5r/image/upload/v1721141759/zentab_demo_ve0urb.gif)
+![ZenTab Demo Video](https://github.com/fenrir2608/zentab/blob/main/zentab_demo.gif)
 
 Build your React landing page effortlessly with the required sections to your project. <a href="https://getzentab.vercel.app" target="_blank">Live Demo</a>
 
