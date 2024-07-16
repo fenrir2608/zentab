@@ -2,9 +2,7 @@
 
 ## <a href="https://ui.shadcn.com/" target="_blank">ShadcnUI</a> + <a href="https://react.dev/" target="_blank">React</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
 
-![zentab-landing-page](https://github.com/leoMirandaa/shadcn-landing-page/assets/61714687/3ba7b51f-9589-4541-800a-5ab7cecad1b5)
-
-Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
+Build your React landing page effortlessly with the required sections to your project. <a href="https://getzentab.vercel.app" target="_blank">Live Demo</a>
 
 ## Features
 
