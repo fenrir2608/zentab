@@ -2,18 +2,18 @@ import { Badge } from "./ui/badge";
 import {
   Card,
   CardContent,
-  CardFooter,
+  // CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+//import image from "../assets/growth.png";
+//import image3 from "../assets/reflecting.png";
+//import image4 from "../assets/looking-ahead.png";
 
 interface FeatureProps {
   title: string;
   description: string;
-  image: string;
+  //image: string;
 }
 
 const features: FeatureProps[] = [
@@ -21,19 +21,19 @@ const features: FeatureProps[] = [
     title: "Cache All Tabs",
     description:
       "Easily cache all your open tabs with a single click, so you can quickly restore your browsing session later.",
-    image: image4,
+    //image: image4,
   },
   {
     title: "Reopen with One Click",
     description:
       "Reopen all your cached tabs with a single click, saving you time and effort.",
-    image: image3,
+    //image: image3,
   },
   {
     title: "Declutter Your Workspace",
     description:
       "Reduce clutter and improve your productivity by keeping your open tabs organized and easily accessible.",
-    image: image,
+    //image: image,
   },
 ];
 
@@ -72,7 +72,7 @@ export const Features = () => {
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {features.map(({ title, description, image }: FeatureProps) => (
+        {features.map(({ title, description }: FeatureProps) => (
           <Card key={title}>
             <CardHeader>
               <CardTitle>{title}</CardTitle>
