@@ -1,10 +1,10 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "zentab-laning-page",
+  "description": "Landing page utilizing Shadcn, React, Typescript, and Tailwind CSS for the ZenTab extension.",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
+    "name": "Harsh Mehta",
+    "email": "harshmehta.m26@gmail.com",
+    "url": "https://github.com/fenrir2608"
   },
   "license": "MIT",
   "keywords": [

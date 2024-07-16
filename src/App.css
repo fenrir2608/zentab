@@ -3,72 +3,73 @@
 @tailwind utilities;
 
 /* *=========== Default theme =========== */
-/* @layer base {
+@layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 100% 97%; /* Light background for light mode */
+    --foreground: 200 15% 20%; /* Dark text for readability */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --primary: 187 76% 66%; /* Soft blue */
+    --primary-foreground: 0 0% 0%; /* Black text for readability */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --secondary: 165 75% 70%; /* Soft teal */
+    --secondary-foreground: 0 0% 0%; /* Black text for readability */
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --accent: 160 86% 65%; /* Soft green */
+    --accent-foreground: 0 0% 0%; /* Black text for readability */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 75% 65%; /* Soft red */
+    --destructive-foreground: 0 0% 0%; /* Black text for readability */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 100% 95%; /* Light gray for muted elements */
+    --muted-foreground: 200 15% 30%; /* Darker text for readability */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --card: 210 100% 97%; /* Light background for cards */
+    --card-foreground: 200 15% 20%; /* Dark text for readability */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --popover: 210 100% 97%; /* Light background for popovers */
+    --popover-foreground: 200 15% 20%; /* Dark text for readability */
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 200 20% 80%; /* Light border color */
+    --input: 200 20% 70%; /* Light input background */
+    --ring: 187 76% 66%; /* Soft blue for focus rings */
 
-    --radius: 0.5rem;
+    --radius: 1rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 0 0% 0%; /* Black background */
+    --foreground: 210 100% 98%; /* White foreground for high contrast */
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --primary: 187 76% 66%; /* Soft blue */
+    --primary-foreground: 0 0% 0%; /* Black for readability */
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --secondary: 165 75% 70%; /* Soft teal */
+    --secondary-foreground: 0 0% 0%; /* Black for readability */
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --accent: 160 86% 65%; /* Soft green */
+    --accent-foreground: 0 0% 0%; /* Black for readability */
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --destructive: 0 75% 65%; /* Soft red */
+    --destructive-foreground: 0 0% 0%; /* Black for readability */
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 210 15% 20%; /* Darker gray for muted text */
+    --muted-foreground: 210 100% 95%; /* Light gray for readability */
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --card: 0 0% 10%; /* Very dark gray for card background */
+    --card-foreground: 210 100% 98%; /* White for readability */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --popover: 0 0% 10%; /* Very dark gray for popover background */
+    --popover-foreground: 210 100% 98%; /* White for readability */
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 210 100% 95%; /* Light gray for borders */
+    --input: 210 100% 95%; /* Light gray for inputs */
+    --ring: 187 76% 66%; /* Soft blue for focus rings */
   }
-} */
+}
+
 
 /* *=========== Green theme =========== */
-@layer base {
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
@@ -113,7 +114,7 @@
     --input: 240 3.7% 15.9%;
     --ring: 142.4 71.8% 29.2%;
   }
-}
+} */
 
 @layer base {
   * {
